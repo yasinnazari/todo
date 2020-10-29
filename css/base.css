@@ -1,0 +1,40 @@
+.fon { font-family: tahoma; }
+
+.tac { text-align: center; }
+
+.lf { font-size: 19.5px; }
+
+.important-color { color: rgb(32, 83, 63); }
+
+.tal { text-align: left; }
+
+.tar { text-align: right; }
+
+.rtl { direction: rtl; }
+
+.ltr { direction: ltr; }
+
+.m5 { margin: 5px; }
+.m10 { margin: 10px; }
+.m15 { margin: 15px; }
+.m5lr { margin-left: 5px; margin-right: 5px; }
+.m10lr { margin-left: 10px; margin-right: 10px; }
+.m15lr { margin-left: 15px; margin-right: 15px; }
+.m5tb { margin-top: 5px; margin-bottom: 5px; }
+.m10tb { margin-top: 10px; margin-bottom: 10px; }
+.m15tb { margin-top: 15px; margin-bottom: 15px; }
+
+.p5 { padding: 5px; }
+.p10 { padding: 10px; }
+.p15 { padding: 15px; }
+.p5lr { padding-left: 5px; padding-right: 5px; }
+.p10lr { padding-left: 10px; padding-right: 10px; }
+.p15lr { padding-left: 15px; padding-right: 15px; }
+.p5tb { padding-top: 5px; padding-bottom: 5px; }
+.p10tb { padding-top: 10px; padding-bottom: 10px; }
+.p15tb { padding-top: 15px; padding-bottom: 15px; }
+
+.w15 { width: 15%; }
+.w30 { width: 30%; }
+.w50 { width: 50%; }
+
