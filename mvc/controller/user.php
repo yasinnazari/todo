@@ -56,8 +56,8 @@ class UserController{
     }
 
     private function loginForm(){
-        View::render("/user/login.php", $data = array());
-        $data['test'] = array();
+        View::render("/user/login.php", $data = []);
+        $data['test'] = [];
     }
 
     public function register(){
@@ -68,8 +68,7 @@ class UserController{
         }
     }
 
-    private function registerCheck(){
-
+    private function registerCheck() {
         $email = post('email');
         $password1 = post('password1');
         $password2 = post('password2');

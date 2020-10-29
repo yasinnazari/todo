@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +38,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -179,7 +182,7 @@
       <workItem from="1603987389750" duration="1773000" />
       <workItem from="1603990518758" duration="857000" />
       <workItem from="1603993115067" duration="1779000" />
-      <workItem from="1603994963287" duration="1110000" />
+      <workItem from="1603994963287" duration="1897000" />
     </task>
     <servers />
   </component>
@@ -203,10 +206,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="127" width="1166" height="541" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1602264372986" />
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603748772420">
+    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl" timestamp="1603996708265">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603748772420" />
+    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603996708265" />
     <state width="1320" height="215" key="GridCell.Tab.0.bottom" timestamp="1602256338453">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -259,10 +262,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1603747828547" />
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1601457339002">
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1603996567036">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1601457339001" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603996567036" />
     <state x="412" y="128" width="639" height="524" key="StructurePopup" timestamp="1603645702684">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -279,13 +282,17 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1603990605442" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1603984859128">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1603996353830">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1603984859128" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603994625336">
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1603996353830" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603996563209">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1603994625336" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1603996563209" />
+    <state x="456" y="81" width="444" height="639" key="svn.repositoryBrowser" timestamp="1603996654205">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="456" y="81" width="444" height="639" key="svn.repositoryBrowser/0.27.1366.741@0.27.1366.741" timestamp="1603996654205" />
   </component>
 </project>
