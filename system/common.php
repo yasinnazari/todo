@@ -106,8 +106,8 @@
 
         $days -= 19;
 
-        $daysInMonths = array( 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29 );
-        $monthName = array(
+        $daysInMonths = [ 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29 ];
+        $monthName = [
             _jan,
             _feb,
             _mar,
@@ -120,7 +120,7 @@
             _oct,
             _nov,
             _dec,
-        );
+        ];
 
         while (true){
             if ($days > $daysInMonths[$month-1]){

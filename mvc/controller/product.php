@@ -28,8 +28,8 @@ class ProductController {
         $db = Db::getInstance();
         $cart = $this->getcartOrCreate();
 
-        $orders = $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", array(
-        ));
+        $orders = $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", [
+        ]);
 
         $data['orders'] = $orders;
 
@@ -43,7 +43,7 @@ class ProductController {
         $db = Db::getInstance();
         $cart = $this->getcartOrCreate();
 
-        $orders = $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", array());
+        $orders = $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", []);
 
         $data['orders'] = $orders;
 
@@ -58,7 +58,7 @@ class ProductController {
         $cart = $this->getcartOrCreate();
 
         ProductModel::remove_order_by_id($orderId);
-        $itemCounts = $db->first("SELECT COUNT (pym_order.order_id) AS total FROM pym_order LEFT OUTER JOIN pym_cart ON pym_order.cart_id=pym_cart.cart_id", array(), 'total');
+        $itemCounts = $db->first("SELECT COUNT (pym_order.order_id) AS total FROM pym_order LEFT OUTER JOIN pym_cart ON pym_order.cart_id=pym_cart.cart_id", [], 'total');
         $data['cartItemsCount'] = $itemCounts;
 
         echo json_encode($data);
@@ -73,7 +73,7 @@ class ProductController {
 
         ProductModel::insert_order($cart['cart_id'], $productId, 1);
 
-        $itemCounts = $db->first("SELECT COUNT(pym_order.order_id) AS total FROM pym_order LEFT OUTER JOIN pym_cart ON pym_order.cart_id=pym_cart.cart_id", array(), 'total');
+        $itemCounts = $db->first("SELECT COUNT(pym_order.order_id) AS total FROM pym_order LEFT OUTER JOIN pym_cart ON pym_order.cart_id=pym_cart.cart_id", [], 'total');
         $data['cartItemsCount'] = $itemCounts;
 
         echo json_encode($data);
@@ -107,9 +107,9 @@ class ProductController {
         }
 
         if ($cart == null) {
-            $cart = $db->first("SELECT * FROM pym_cart WHERE payed!=1 AND session_id=session_id", array(
+            $cart = $db->first("SELECT * FROM pym_cart WHERE payed!=1 AND session_id=session_id", [
                 'session_id' => $sessionId,
-            ));
+            ]);
 
             if ($userId != 0) {
                ProductModel::latest_cart_sessionId_and_cartId($cart['cart_id'], $userId);
@@ -137,10 +137,10 @@ class ProductController {
             return $cart;
         }
 
-        $db->insert("INSERT INTO pym_cart (user_id, session_id, payed) VALUES (user_id, session_id, 0)", array(
+        $db->insert("INSERT INTO pym_cart (user_id, session_id, payed) VALUES (user_id, session_id, 0)", [
             'user_id' => $userId,
             'session_id' => $sessionId,
-        ));
+        ]);
 
 
         $cart = $this->findcart();

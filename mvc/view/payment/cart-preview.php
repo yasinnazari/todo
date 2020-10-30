@@ -1,4 +1,4 @@
-<? if ($orders == null) { $orders = array(); } ?>
+<? if ($orders == null) { $orders = []; } ?>
 <div class="preview-cart">
     <? $totalPrice = 0; ?>
     <? foreach ($orders as $order){ ?>

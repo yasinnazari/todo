@@ -26,7 +26,7 @@
             <li class="back-color"><?=_eventtime_table?></li>
         </ul>
 
-        <? if ($records == null){ $records = array(); } ?>
+        <? if ($records == null){ $records = []; } ?>
         <? foreach ($records as $record){
                 if ($record['isDone']){
                     $doneClass = "done";

@@ -46,9 +46,9 @@ class ProductModel {
     {
         $db = Db::getInstance();
 
-        return $db->first("SELECT * FROM pym_cart WHERE payed!=1 AND user_id=user_id", array(
+        return $db->first("SELECT * FROM pym_cart WHERE payed!=1 AND user_id=user_id", [
             'user_id' => $userId,
-        ));
+        ]);
 
     }
 
@@ -56,10 +56,10 @@ class ProductModel {
     {
         $db = Db::getInstance();
 
-        $db->modify("UPDATE pym_cart SET session_id=session_id WHERE cart_id=cart_id", array(
+        $db->modify("UPDATE pym_cart SET session_id=session_id WHERE cart_id=cart_id", [
             'session_id' => session_id(),
             'cart_id' => $cartId,
-        ));
+        ]);
     }
 
 }

@@ -40,9 +40,9 @@ class NoteController {
 
         NoteModel::remove($noteId, $userId);
 
-        echo json_encode(array(
+        echo json_encode([
             'status' => true,
-        ));
+        ]);
     }
 
     public function toggle($noteId)
@@ -55,9 +55,9 @@ class NoteController {
 
         NoteModel::toggle($noteId, $userId);
 
-        echo json_encode(array(
+        echo json_encode([
             'status' => true,
-        ));
+        ]);
 
     }
 
@@ -98,10 +98,10 @@ class NoteController {
             View::render("/page/ajaxCatalog.php", $projdata);
         $output = ob_get_clean();
 
-        echo json_encode(array(
+        echo json_encode([
            'status' => true,
            'html' => $output,
-        ));
+        ]);
     }
 
 }

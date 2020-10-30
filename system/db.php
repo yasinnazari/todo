@@ -59,7 +59,7 @@ class Db {
 
     public function query($sql){
         $result = $this->connection->query($sql);
-        $records = array();
+        $records = [];
 
         if ($result->num_rows == 0) {
             return null;

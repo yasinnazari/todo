@@ -1,4 +1,4 @@
-<? if ($products == null) { $products = array(); } ?>
+<? if ($products == null) { $products = []; } ?>
 <? foreach ($products as $product){ ?>
     <div class="productPanel">
         <? if ($product['discount'] > 0) { ?>

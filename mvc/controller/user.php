@@ -98,7 +98,7 @@ class UserController{
     }
 
     private function registerForm(){
-        View::render("/user/register.php", array());
+        View::render("/user/register.php", []);
     }
 
 }

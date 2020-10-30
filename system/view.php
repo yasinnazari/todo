@@ -1,7 +1,7 @@
 <?php
 
 Class View {
-    public static function render($filePath, $data = array()){
+    public static function render($filePath, $data = []){
         extract($data);
 
         ob_start();
@@ -11,7 +11,7 @@ Class View {
         require_once("/var/www/html/dev/workspace/web/shop/theme/default.php");
     }
 
-    public static function renderPartial($filePath, $data = array()){
+    public static function renderPartial($filePath, $data = []){
         extract($data);
         $viewType = post('viewType');
 

@@ -26,7 +26,7 @@ $parts = explode('/', $uri);
 $controller = $parts[4];
 $method = $parts[5];
 
-$params = array();
+$params = [];
 for ($i=6; $i<count($parts); $i++){
     $params[] = $parts[$i];
 }
@@ -34,4 +34,4 @@ for ($i=6; $i<count($parts); $i++){
 //  "/user/profile/10" => UserController
 $controllerClassname = ucfirst($controller) . "Controller";
 $controllerInstance = new $controllerClassname();
-call_user_func_array(array($controllerInstance, $method), $params);
+call_user_func_array([$controllerInstance, $method], $params);
