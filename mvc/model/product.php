@@ -11,6 +11,7 @@ class ProductModel {
 
     }
 
+
     public static function remove_order_by_id($orderId)
     {
         $db = Db::getInstance();
@@ -20,6 +21,7 @@ class ProductModel {
         ]);
 
     }
+
 
     public static function insert_order($cartId, $productId, $quantity)
     {
@@ -32,6 +34,7 @@ class ProductModel {
         ]);
     }
 
+
     public static function update_order_quantity_orderId($orderId, $quantity)
     {
         $db = Db::getInstance();
@@ -41,6 +44,7 @@ class ProductModel {
             'order_id' => $orderId,
         ]);
     }
+
 
     public static function fetch_openCart_by_userId($userId)
     {
@@ -52,12 +56,35 @@ class ProductModel {
 
     }
 
+
+    public static function fetch_openCart_by_sessionId($sessionId)
+    {
+        $db = Db::getInstance();
+
+        $cart = $db->first("SELECT * FROM pym_cart WHERE payed!=1 AND session_id=session_id", [
+            'session_id' => $sessionId,
+        ]);
+
+    }
+    
+
     public static function update_openCartSession_by_cartId($cartId)
     {
         $db = Db::getInstance();
 
         $db->modify("UPDATE pym_cart SET session_id=session_id WHERE cart_id=cart_id", [
             'session_id' => session_id(),
+            'cart_id' => $cartId,
+        ]);
+    }
+
+
+    public static function update_openCartUserId_by_cartId($cartId, $userId)
+    {
+        $db = Db::getInstance();
+
+        $db->modify("UPDATE pym_cart SET user_id=user_id WHERE cart_id=cart_id", [
+            'user_id' => $userId,
             'cart_id' => $cartId,
         ]);
     }

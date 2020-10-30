@@ -26,7 +26,7 @@ class ProductController {
     public function cartAddress()
     {
         $db = Db::getInstance();
-        $cart = $this->getcartOrCreate();
+        $cart = $this->getCartOrCreate();
 
         $orders = $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", [
         ]);
@@ -41,7 +41,7 @@ class ProductController {
     public function previewCart()
     {
         $db = Db::getInstance();
-        $cart = $this->getcartOrCreate();
+        $cart = $this->getCartOrCreate();
 
         $orders = $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", []);
 
@@ -55,7 +55,7 @@ class ProductController {
     public function removeFromCart($orderId)
     {
         $db = Db::getInstance();
-        $cart = $this->getcartOrCreate();
+        $cart = $this->getCartOrCreate();
 
         ProductModel::remove_order_by_id($orderId);
         $itemCounts = $db->first("SELECT COUNT (pym_order.order_id) AS total FROM pym_order LEFT OUTER JOIN pym_cart ON pym_order.cart_id=pym_cart.cart_id", [], 'total');
@@ -69,7 +69,7 @@ class ProductController {
     public function addToCart($productId)
     {
         $db = Db::getInstance();
-        $cart = $this->getcartOrCreate();
+        $cart = $this->getCartOrCreate();
 
         ProductModel::insert_order($cart['cart_id'], $productId, 1);
 
@@ -91,41 +91,33 @@ class ProductController {
 
     private function findcart()
     {
-        $db = Db::getInstance();
-
         $userId = getUserId();
         $sessionId = session_id();
 
         $cart = null;
 
-        if ($userId != 0) {
+        if (!isGuest()) {
             $cart = ProductModel::fetch_openCart_by_userId($userId);
             if ($cart != null){
-                $cart = ProductModel::update_openCartSession_by_cartId($userId);
+                ProductModel::update_openCartSession_by_cartId($cart['cart_id']);
                 return $cart;
             }
         }
 
-        if ($cart == null) {
-            $cart = $db->first("SELECT * FROM pym_cart WHERE payed!=1 AND session_id=session_id", [
-                'session_id' => $sessionId,
-            ]);
+        $cart = ProductModel::fetch_openCart_by_sessionId($sessionId);
 
-            if ($userId != 0) {
-               ProductModel::latest_cart_sessionId_and_cartId($cart['cart_id'], $userId);
+        if ($cart != null) {
+            if (!isGuest()) {
+                ProductModel::update_openCartUserId_by_cartId($cart['cart_id'], $userId);
             }
         }
 
-        if ($cart != null){
-            return $cart;
-        }
-
-        return null;
+        return $cart;
     }
 
     // ----------------------------------------------------------------------
 
-    public function getcartOrCreate()
+    public function getCartOrCreate()
     {
         $db = Db::getInstance();
 

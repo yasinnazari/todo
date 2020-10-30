@@ -6,20 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/note.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/model/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/page/ajaxCatalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/ajaxCatalog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/page/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/catalog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/cart-preview.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/payment/cart-preview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/products-grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/payment/products-grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/products-linear.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/payment/products-linear.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/access.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +196,9 @@
       <workItem from="1603994963287" duration="1897000" />
       <workItem from="1603996924939" duration="905000" />
       <workItem from="1604081915258" duration="1705000" />
+      <workItem from="1604083794600" duration="949000" />
+      <workItem from="1604088042027" duration="1785000" />
+      <workItem from="1604090882000" duration="1338000" />
     </task>
     <servers />
   </component>
@@ -300,14 +294,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1603988972359" />
-    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1604083537310">
+    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1604088501958">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1604083537310" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1603996353830">
+    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1604088501958" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1604089344968">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1603996353830" />
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604089344968" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603996563209">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

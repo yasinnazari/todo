@@ -102,13 +102,14 @@
 
     function isGuest()
     {
-        return !isset($_SESSION["access"]) ? true : false;
+        $userId = getUserId();
+        return $userId == 0;
     }
 
     function grantSuperAdmin()
     {
         if (!isSuperAdmin()){
-            ?> <h1><? echo "Forbidden";?> </h1> <?
+            echo "Forbidden";
             exit;
         }
     }
