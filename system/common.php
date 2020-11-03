@@ -2,20 +2,12 @@
 
 	function br($return = false)
     {
-		if ($return){
-		return "<br>\n";
-	 }	else {
-			echo "<br>\n";
-	  }
+		if ($return) { return "<br>\n"; } else { echo "<br>\n"; }
 	}
 
 	function hr($return = false)
     {
-	    if ($return){
-		    return "<hr>\n";
-        }	else {
-		    	echo "<hr>\n";
-	    }
+        if ($return){ return "<hr>\n"; } else { echo "<hr>\n"; }
 	}
 
     function dump($var, $return = false)
@@ -37,8 +29,8 @@
 
 	function getUserId()
     {
-        if (isset($_SESSION['user_id'])) {
-            return $_SESSION['user_id'];
+        if (session_isset('user_id')) {
+            return session_get('user_id');
         } else {
             return 0;
         }
@@ -171,12 +163,10 @@
 
 	function initializeSettings()
     {
-	    if (!isset($_SESSION['viewType'])) {
-	        $_SESSION['viewType'] = 'grid';
-        }
+        session_set_if_undefined('viewType', 'grid');
     }
 
-    function session_get($field, $default){
+    function session_get($field, $default = null){
 	    if (isset($_SESSION[$field])){
 	        return $_SESSION[$field];
         }
@@ -184,9 +174,20 @@
 	    return $default;
     }
 
+    function session_isset($field) {
+	    return isset($_SESSION[$field]);
+    }
+
     function session_set($field, $value)
     {
         $_SESSION[$field] = $value;
+    }
+
+    function session_set_if_undefined($field, $value)
+    {
+        if (!isset($_SESSION[$field])) {
+            $_SESSION[$field] = $value;
+        }
     }
 
     function post($field, $default = null){

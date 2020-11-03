@@ -67,6 +67,8 @@
             $("#cart_items").text(output.cartItemsCount);
             $("#cartPreviewHolder").html(output.cartPreview);
         });
+
+        refreshCartPreview();
     }
 
     function removeOrder(productId)
@@ -79,19 +81,8 @@
             $("#cart_items").text(output.cartItemsCount);
             $("#cartPreviewHolder").html(output.cartPreview);
         });
-    }
 
-    function refreshCartPreview()
-    {
-        $.ajax({
-            url: "/dev/workspace/web/shop/product/refreshCartPreview",
-            method: 'POST',
-            dataType: "json"
-        }).done(function(output) {
-            console.log(output);
-            $("#cart_items").text(output.cartItemsCount);
-            $("#cartPreviewHolder").html(output.cartPreviewHolder);
-        });
+        refreshCartPreview();
     }
 
     $(function(){

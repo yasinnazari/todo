@@ -34,7 +34,6 @@ class Db {
         }
 
         $this->connection->query("SET NAMES 'utf8'");
-
     }
 
     public function first($sql){
@@ -47,19 +46,16 @@ class Db {
     }
 
     public function modify($sql){
-        $rowsAffected = $this->connection->query($sql);
-
-        return $rowsAffected;
+        return $this->connection->query($sql);
     }
 
     public function insert($sql){
-        $id = $this->connection->query($sql);
-        return $id;
+        return $this->connection->query($sql);
     }
 
     public function query($sql){
         $result = $this->connection->query($sql);
-        $records = [];
+        $records = array();
 
         if ($result->num_rows == 0) {
             return null;

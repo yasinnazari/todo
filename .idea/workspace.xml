@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/theme/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/model/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/admin/promoteUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/page/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/payment/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/payment/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/user/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/access.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/default.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../notes-v3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/theme" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,16 +63,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mvc/view/payment" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/font" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mvc/view/payment" />
       <recent name="$PROJECT_DIR$/mvc/view/product" />
       <recent name="$PROJECT_DIR$/image/product" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/theme" />
+      <recent name="$PROJECT_DIR$/mvc/view/payment" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/font" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.home.php">
@@ -195,6 +211,26 @@
       <workItem from="1604088042027" duration="1785000" />
       <workItem from="1604090882000" duration="1771000" />
       <workItem from="1604156135048" duration="601000" />
+      <workItem from="1604166035744" duration="1752000" />
+      <workItem from="1604169397994" duration="864000" />
+      <workItem from="1604172109196" duration="905000" />
+      <workItem from="1604174724895" duration="2099000" />
+      <workItem from="1604176965929" duration="1763000" />
+      <workItem from="1604178800825" duration="1828000" />
+      <workItem from="1604244300573" duration="1851000" />
+      <workItem from="1604246202699" duration="1802000" />
+      <workItem from="1604248226706" duration="1785000" />
+      <workItem from="1604250077935" duration="1668000" />
+      <workItem from="1604259190783" duration="605000" />
+      <workItem from="1604263387037" duration="630000" />
+      <workItem from="1604266586680" duration="1751000" />
+      <workItem from="1604268453519" duration="631000" />
+      <workItem from="1604270387285" duration="1742000" />
+      <workItem from="1604272767081" duration="1275000" />
+      <workItem from="1604346340171" duration="1257000" />
+      <workItem from="1604348201431" duration="1613000" />
+      <workItem from="1604350082693" duration="1761000" />
+      <workItem from="1604352300400" duration="1770000" />
     </task>
     <servers />
   </component>
@@ -218,10 +254,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="127" width="1166" height="541" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1602264372986" />
-    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl" timestamp="1603996708265">
+    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl" timestamp="1604251055195">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603996708265" />
+    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1604251055195" />
     <state width="1320" height="215" key="GridCell.Tab.0.bottom" timestamp="1602256338453">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -290,18 +326,18 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1603988972359" />
-    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1604088501958">
+    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1604266836991">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1604088501958" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1604089344968">
+    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1604266836991" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1604244763277">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604089344968" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603996563209">
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604244763277" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604246575334">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1603996563209" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1604246575334" />
     <state x="456" y="81" width="444" height="639" key="svn.repositoryBrowser" timestamp="1603996654205">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

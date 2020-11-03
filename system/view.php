@@ -6,6 +6,8 @@ Class View {
 
         ob_start();
             require_once("/var/www/html/dev/workspace/web/shop/mvc/view" . $filePath);
+
+        // don't remove below $content that requires for rendering template
         $content = ob_get_clean();
 
         require_once("/var/www/html/dev/workspace/web/shop/theme/default.php");

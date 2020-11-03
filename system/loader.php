@@ -1,5 +1,4 @@
 <?
-	session_start();
 	date_default_timezone_set('Asia/Tehran');
 
 	global $config;
@@ -11,6 +10,5 @@
 	require_once('/var/www/html/dev/workspace/web/shop/system/view.php');
 	require_once('/var/www/html/dev/workspace/web/shop/locale/' . $config['lang'] . '.php');
 
+	session_start();
 	initializeSettings();
-
-?>

@@ -43,7 +43,8 @@ class ProductController {
         $db = Db::getInstance();
         $cart = $this->getCartOrCreate();
 
-        $orders = $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", []);
+        $orders = $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", [
+        ]);
 
         $data['orders'] = $orders;
 
@@ -119,21 +120,14 @@ class ProductController {
 
     public function getCartOrCreate()
     {
-        $db = Db::getInstance();
-
         $userId = getUserId();
-        $sessionId = session_id();
 
         $cart = $this->findcart();
         if ($cart != null){
             return $cart;
         }
 
-        $db->insert("INSERT INTO pym_cart (user_id, session_id, payed) VALUES (user_id, session_id, 0)", [
-            'user_id' => $userId,
-            'session_id' => $sessionId,
-        ]);
-
+        ProductModel::insert_cart($userId);
 
         $cart = $this->findcart();
         return $cart;

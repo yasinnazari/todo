@@ -10,7 +10,6 @@
             return _guest;
         }
 
-        $access = $_SESSION["access"];
         $accessName = "";
 
         if (isSuperAdmin()){
@@ -38,7 +37,7 @@
     {
         if (isGuest()){ return false; }
 
-        $access = $_SESSION["access"];
+        $access = session_get('access');
 
         if (has_access($access, 'admin') || has_access ($access,'superadmin')){
             return true;
@@ -50,7 +49,7 @@
     function isSuperAdmin()
     {
         if (isGuest()){ return false; }
-        $access = $_SESSION["access"];
+        $access = session_get('access');
 
         if (has_access($access,'superadmin')){
             return true;
@@ -59,10 +58,11 @@
         return false;
     }
 
+
     function isAuthor()
     {
         if (isGuest()){ return false; }
-        $access = $_SESSION["access"];
+        $access = session_get('access');
 
         if (has_access($access, 'vipauthor') || has_access ($access,'author')){
             return true;
@@ -74,7 +74,7 @@
     function isVipAuthor()
     {
         if (isGuest()){ return false; }
-        $access = $_SESSION["access"];
+        $access = session_get('access');
 
         if (has_access($access, 'vipauthor')){
             return true;
@@ -86,7 +86,8 @@
     function isVip()
     {
         if (isGuest()){ return false; }
-        $access = $_SESSION["access"];
+
+        $access = session_get('access');
 
         if (has_access($access, 'vip')){
             return true;
@@ -97,7 +98,7 @@
 
     function isUser()
     {
-        return isset($_SESSION["access"]) ? true : false;
+        return session_isset('access') ? true : false;
     }
 
     function isGuest()

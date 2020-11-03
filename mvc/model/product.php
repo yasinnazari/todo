@@ -5,7 +5,7 @@ class ProductModel {
     {
         $db = Db::getInstance();
 
-        return $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=cart_id", [
+        return $db->query("SELECT * FROM pym_order LEFT OUTER JOIN pym_product ON pym_order.product_id=pym_product.product_id WHERE pym_order.cart_id=:cart_id", [
             'cart_id' => $cartId,
         ]);
 
@@ -16,7 +16,7 @@ class ProductModel {
     {
         $db = Db::getInstance();
 
-        $db->insert("DELETE FROM pym_order WHERE order_id=order_id)", [
+        $db->insert("DELETE FROM pym_order WHERE order_id=:order_id)", [
             'order_id' => $orderId,
         ]);
 
@@ -27,7 +27,7 @@ class ProductModel {
     {
         $db = Db::getInstance();
 
-        return $db->insert("INSERT INTO pym_order (product_id, quantity, cart_id) VALUES (product_id, quantity, cart_id)", [
+        return $db->insert("INSERT INTO pym_order (product_id, quantity, cart_id) VALUES (:product_id, :quantity, :cart_id)", [
             'product_id' => $productId,
             'quantity' => $quantity,
             'cart_id' => $cartId,
@@ -86,6 +86,16 @@ class ProductModel {
         $db->modify("UPDATE pym_cart SET user_id=user_id WHERE cart_id=cart_id", [
             'user_id' => $userId,
             'cart_id' => $cartId,
+        ]);
+    }
+
+    public static function insert_cart($userId)
+    {
+        $db = Db::getInstance();
+
+        $db->insert("INSERT INTO pym_cart (user_id, session_id, payed) VALUES (user_id, session_id, 0)", [
+            'user_id' => $userId,
+            'session_id' => session_id(),
         ]);
     }
 

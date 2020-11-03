@@ -371,3 +371,9 @@ a, a:visited, a:hover {
     height: 25px;
 }
 
+.pon {
+    position: absolute;
+    left: 10px;
+    font-size: 15px;
+}
+

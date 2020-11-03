@@ -124,7 +124,7 @@
                     quantity: quantity
                 }
             }).done(function(output) {
-                // alert(output);
+                refreshCartPreview();
             });
         });
 

@@ -1,11 +1,8 @@
 <?
-// /user/loginCheck/
 
-class UserController{
-    
-    public function __construct(){
-    }
+class UserController {
 
+    // Exit the page ------------------
     public function logout() {
         session_destroy();
         header("Location: /dev/workspace/web/shop/login");
@@ -13,27 +10,25 @@ class UserController{
         session_start();
         session_regenerate_id();
 
-        $_SESSION['viewType'] = 'grid';
+        initializeSettings();
     }
 
-    public function profile($userId){
-        echo "User Profile: " . $userId;
-    }
-
+    // login Site ------------------
     public function login(){
-        if (isset($_POST['email'])) {
-                $this->loginCheck();
+        $email = post('email');
 
-    if (!defined('test')){ echo "Forbidden Request"; exit; }
-
-    global $config;
-            } else {
-                $this->loginForm();
-            }
+        if (!isGuest()){
+            header("Location: " . baseUrl() . "page/home");
+            return;
         }
 
-    private function loginCheck(){
+        // show login form if email not provided
+        if ($email == null) {
+            View::render("/user/login.php");
+            return;
+        }
 
+        // Check Login information to be valid
         $email = post('email');
         $password = post('password');
 
@@ -43,32 +38,30 @@ class UserController{
         } else {
             $hashedPassword = encryptPassword($password);
             if ($hashedPassword == $record['password']){
-                $_SESSION['email'] = $record['email'];
-                $_SESSION['user_id'] = $record['user_id'];
-                $_SESSION['access'] = $record['access'];
+
+                session_set('email', $record['email']);
+                session_set('user_id', $record['user_id']);
+                session_set('first_name', $record['first_name']);
+                session_set('last_name', $record['last_name']);
+                session_set('access', $record['access']);
+
                 message('success', _login_welcome, true);
             } else {
                 message('fail', _invalid_password, true);
             }
         }
-
-        return;
-    }
-
-    private function loginForm(){
-        View::render("/user/login.php", $data = []);
-        $data['test'] = [];
     }
 
     public function register(){
-        if (isset($_POST['email'])){
-            $this->registerCheck();
-        } else {
-            $this->registerForm();
-        }
-    }
+        $email = post('email');
 
-    private function registerCheck() {
+        // show registration form if email not provided
+        if ($email == null) {
+            View::render("/user/register.php", []);
+            return;
+        }
+
+        // check registration info and register if is valid information
         $email = post('email');
         $password1 = post('password1');
         $password2 = post('password2');
@@ -92,13 +85,8 @@ class UserController{
         $hashedPassword = encryptPassword($password1);
 
         UserModel::insert($email, $hashedPassword, $firstname, $lastname, $time, $time);
-        
+
         message('success', _successfully_registered);
-
-    }
-
-    private function registerForm(){
-        View::render("/user/register.php", []);
     }
 
 }
