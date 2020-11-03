@@ -9,6 +9,7 @@
 </head>
 <body>
 
+<? require_once('/var/www/html/dev/workspace/web/shop/theme/footer.php'); ?>
 <? require_once('/var/www/html/dev/workspace/web/shop/theme/header.php'); ?>
 
 <div id="content"><?=$content?></div>
@@ -16,7 +17,7 @@
 
 </body>
 </html>
-
+<br><br><br><br>
 <!--<script>
     // $(function(){
         // $("#cart_items").on('click', function(){

@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/theme/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/model/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/admin/promoteUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/page/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/payment/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,6 +220,9 @@
       <workItem from="1604348201431" duration="1613000" />
       <workItem from="1604350082693" duration="1761000" />
       <workItem from="1604352300400" duration="1770000" />
+      <workItem from="1604431983025" duration="1730000" />
+      <workItem from="1604433815340" duration="1767000" />
+      <workItem from="1604435684099" duration="1548000" />
     </task>
     <servers />
   </component>
@@ -306,10 +298,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="215" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1602256338455" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1603747828547">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604432182544">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1603747828547" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1604432182544" />
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1603996567036">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
