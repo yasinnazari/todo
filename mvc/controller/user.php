@@ -24,7 +24,7 @@ class UserController {
 
         // show login form if email not provided
         if ($email == null) {
-            View::render("/user/login.php");
+            View::render("/mvc/view/user/login.php");
             return;
         }
 
@@ -57,7 +57,7 @@ class UserController {
 
         // show registration form if email not provided
         if ($email == null) {
-            View::render("/user/register.php", []);
+            View::render("/mvc/view/user/register.php", []);
             return;
         }
 

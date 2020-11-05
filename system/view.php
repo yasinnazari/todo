@@ -5,7 +5,7 @@ Class View {
         extract($data);
 
         ob_start();
-            require_once("/var/www/html/dev/workspace/web/shop/mvc/view" . $filePath);
+            require_once("/var/www/html/dev/workspace/web/shop/" . $filePath);
 
         // don't remove below $content that requires for rendering template
         $content = ob_get_clean();

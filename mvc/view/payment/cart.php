@@ -67,16 +67,13 @@
         <? } ?>
     </table>
 
-    <br>
-    <br>
-    <br>
-    <br>
+    <br><br>
     <a href="http://www.zarinpal.com" target="_blank" class="addCartPayment"><span>💳&nbsp;&nbsp;</span><span>پرداخت سبدخرید</span></a>
-    <div id="cartTotal"><br>
-        <div class="finalPrice">مبلغ نهایی سبد خرید شما : </div><Br><br><span class="priceFinally"><?=$totalPrice?>&nbsp;<span style="color: #f80">(ریال)</span></span><br><br>
+    <div id="cartTotal">
+        <div class="finalPrice priceF">مبلغ نهایی سبد خرید شما : </div><Br><br><span class="priceFinally"><?=$totalPrice?>&nbsp;<span style="color: #f80">(ریال)</span></span><br><br><br><br>
     </div>
 
-</div>
+</div><br><br>
 
 <script>
 

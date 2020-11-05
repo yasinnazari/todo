@@ -122,3 +122,27 @@
             exit;
         }
     }
+
+    function grantAuthor()
+    {
+        if (!isAuthor()){
+            echo "Forbidden";
+            exit;
+        }
+    }
+
+    function grantVipAuthor()
+    {
+        if (!isVipAuthor()){
+            echo "Forbidden";
+            exit;
+        }
+    }
+
+    function grantUser()
+    {
+        if (!isAdmin()){
+            echo "Forbidden";
+            exit;
+        }
+    }

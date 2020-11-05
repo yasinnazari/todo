@@ -1,9 +1,8 @@
 <?php
 
 class AdminController {
-    public function _construct()
+    public function __construct()
     {
         grantAdmin();
     }
-
 }

@@ -1,18 +1,14 @@
 .fon { font-family: tahoma; }
-
 .tac { text-align: center; }
-
 .lf { font-size: 19.5px; }
-
 .important-color { color: rgb(32, 83, 63); }
-
 .tal { text-align: left; }
-
 .tar { text-align: right; }
-
 .rtl { direction: rtl; }
-
 .ltr { direction: ltr; }
+.cp { cursor: pointer; }
+.dib { display: inline-block; }
+.dif { display: inline-flex; }
 
 .m5 { margin: 5px; }
 .m10 { margin: 10px; }
@@ -35,6 +31,16 @@
 .p15tb { padding-top: 15px; padding-bottom: 15px; }
 
 .w15 { width: 15%; }
+.w17 { width: 17.5%; }
+.w20 { width: 20%; }
+.w25 { width: 25%; }
 .w30 { width: 30%; }
+.w35 { width: 35%; }
+.w40 { width: 40%; }
 .w50 { width: 50%; }
+.w60 { width: 60%; }
+.w75 { width: 75%; }
+.w85 { width: 85%; }
+.w95 { width: 95%; }
+.w100 { width: 100%; }
 

@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<?=baseUrl()?>css/style-2.css">
+    <link rel="stylesheet" href="<?=baseUrl()?>css/style.css">
     <link rel="stylesheet" href="<?=baseUrl()?>css/base.css">
     <link rel="stylesheet" href="<?=baseUrl()?>css/base2.css">
     <script type="text/javascript" src="/dev/workspace/web/shop/js/common.js"></script>
@@ -18,6 +19,7 @@
 </body>
 </html>
 <br><br><br><br>
+
 <!--<script>
     // $(function(){
         // $("#cart_items").on('click', function(){

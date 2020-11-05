@@ -99,4 +99,11 @@ class ProductModel {
         ]);
     }
 
+    public static function add_product($title, $description, $brief, $price, $discount)
+    {
+        $db = Db::getInstance();
+        $productId = $db->insert("INSERT INTO pym_product (title, description, brief, price, discount) VALUES ('$title', '$description', '$brief', '$price', '$discount')");
+        return $productId;
+    }
+
 }

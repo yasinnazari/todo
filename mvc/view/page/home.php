@@ -1,3 +1,5 @@
+<script type="text/javascript" src="/dev/workspace/web/shop/js/home.js"></script>
+
 <br><br>
 <div>
     <strong style="color: #61003f; font-size: 130%;">مرتب سازی بر اساس </strong>&nbsp
@@ -12,86 +14,12 @@
     <strong style="color: #61003f; margin-right: 18px; font-size: 130%;">جستجو محصول</strong>&nbsp
     <input value="" placeholder="جستجو 🔎" id="keyword">
 
-    <a id="displayAsList" style="color: #8e3d3d; cursor: pointer;"><img class="nt-cls" src="<?=baseUrl()?>image/product/notes.png"></a>
-    <a id="displayAsGrid" style="color: black; cursor: pointer;"><img class="li-cls" src="<?=baseUrl()?>image/product/list.png"></a>
-    <input id="viewType" type="hidden" value="grid">
+    <a id="displayAsList" class="cp" style="color: #8e3d3d;"><img class="nt-cls" src="<?=baseUrl()?>image/product/notes.png"></a>
+    <a id="displayAsGrid" class="cp" style="color: black;"><img class="li-cls" src="<?=baseUrl()?>image/product/list.png"></a>
+    <a href="/dev/workspace/web/shop/author/defineProduct" class="cp" style="color: black;"><img class="dg-cls" src="<?=baseUrl()?>image/product/user2.png"></a>
+    <input id="viewType" type="hidden" value="<?=$_SESSION['viewType']?>">
 </div>
-
 <br><br>
-
-<script>
-    $("#sortType").on('change', function(){
-        reloadData();
-    })
-
-    $("#displayAsList").on('click', function(){
-        $('#viewType').val('list');
-        reloadData();
-    });
-
-    $("#displayAsGrid").on('click', function(){
-        $('#viewType').val('grid');
-        reloadData();
-    });
-
-    $("#keyword").on('keyup', function(){
-        reloadData();
-    });
-
-    function reloadData(){
-        var sortType = $("#sortType").val();
-        var keyword = $("#keyword").val();
-        var viewType = $("#viewType").val();
-
-        $.ajax({
-            url: "/dev/workspace/web/shop/product/search",
-            method: 'POST',
-            data: {
-                sortType: sortType,
-                keyword: keyword,
-                viewType: viewType
-            }
-        }).done(function(output) {
-            $("#products").empty();
-            $("#products").append(output);
-        });
-    }
-
-    function addProduct(productId)
-    {
-        $.ajax({
-            url: "/dev/workspace/web/shop/product/addToCart" + productId,
-            method: 'POST',
-            dataType: "json"
-        }).done(function(output) {
-            $("#cart_items").text(output.cartItemsCount);
-            $("#cartPreviewHolder").html(output.cartPreview);
-        });
-
-        refreshCartPreview();
-    }
-
-    function removeOrder(productId)
-    {
-        $.ajax({
-            url: "/dev/workspace/web/shop/product/removeFromCart" + productId,
-            method: 'POST',
-            dataType: "json"
-        }).done(function(output) {
-            $("#cart_items").text(output.cartItemsCount);
-            $("#cartPreviewHolder").html(output.cartPreview);
-        });
-
-        refreshCartPreview();
-    }
-
-    $(function(){
-        $("#viewType").val('<?=$_SESSION['viewType']?>');
-        reloadData();
-        refreshCartPreview();
-    });
-
-</script>
 
 <div id="products">
 

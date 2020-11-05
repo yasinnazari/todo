@@ -7,7 +7,7 @@ class NoteController {
         if (isset($_POST['title'])){
             $this->submitNote();
         } else {
-            View::render("/note/submit.php");
+            View::render("/mvc/view/note/submit.php");
         }
     }
 
@@ -76,7 +76,7 @@ class NoteController {
         $data['records'] = NoteModel::catalogByPage($userId, $startIndex, $count);
         $data['pageIndex'] = $pageIndex;
 
-        View::render("/page/catalog.php", $data);
+        View::render("/mvc/view/page/catalog.php", $data);
     }
 
     public function ajaxCatalog($pageIndex)
@@ -95,7 +95,7 @@ class NoteController {
         $data['pageIndex'] = $pageIndex;
 
         ob_start();
-            View::render("/page/ajaxCatalog.php", $projdata);
+            View::render("/mvc/view/page/ajaxCatalog.php", $projdata);
         $output = ob_get_clean();
 
         echo json_encode([

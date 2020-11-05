@@ -9,6 +9,8 @@ define('_weak_password', "رمزعبور های وارد شده به انداز�
 define('_password_not_match', " رمزعبور های وارد شده با هم مطابقت ندارند !");
 define('_successfully_registered', "شما با موفقیت ثبت نام شدید , <a href=\"/dev/workspace/web/shop/user/login\">ورود به سایت</a>");
 
+define('_product_defined', "محصول شما به موفقیت در سایت درج و ثبت شد 👏");
+
 define('_btn_register', "ثبت نام");
 define('_btn_login', "ورود");
 define('_btn_exit', "خروج");

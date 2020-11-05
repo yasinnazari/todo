@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controller/author.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/author/define-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/message/scs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/locale/fa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/model/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/page/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/payment/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/payment/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/access.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/default.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/header.php" afterDir="false" />
@@ -23,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -222,7 +244,25 @@
       <workItem from="1604352300400" duration="1770000" />
       <workItem from="1604431983025" duration="1730000" />
       <workItem from="1604433815340" duration="1767000" />
-      <workItem from="1604435684099" duration="1548000" />
+      <workItem from="1604435684099" duration="1771000" />
+      <workItem from="1604437630069" duration="1757000" />
+      <workItem from="1604439480156" duration="1772000" />
+      <workItem from="1604441354644" duration="1779000" />
+      <workItem from="1604443331483" duration="459000" />
+      <workItem from="1604494193589" duration="1722000" />
+      <workItem from="1604500873124" duration="1752000" />
+      <workItem from="1604502925859" duration="1774000" />
+      <workItem from="1604504749689" duration="604000" />
+      <workItem from="1604506820274" duration="1842000" />
+      <workItem from="1604508914811" duration="1951000" />
+      <workItem from="1604510918966" duration="1645000" />
+      <workItem from="1604514802774" duration="1775000" />
+      <workItem from="1604519965541" duration="1549000" />
+      <workItem from="1604523046065" duration="471000" />
+      <workItem from="1604556604757" duration="1693000" />
+      <workItem from="1604558383237" duration="685000" />
+      <workItem from="1604560832259" duration="1773000" />
+      <workItem from="1604562677052" duration="20000" />
     </task>
     <servers />
   </component>
@@ -242,6 +282,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="515" y="230" width="325" height="341" key="#com.jetbrains.php.refactoring.makeStatic.PhpMakeStaticDialog/0.27.1366.741@0.27.1366.741" timestamp="1603993957589" />
+    <state x="222" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1604504017606">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="222" y="27" width="912" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1604504017606" />
     <state x="100" y="127" width="1166" height="541" key="DiffContextDialog" timestamp="1602264372986">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -298,10 +342,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="215" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1602256338455" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604432182544">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604557219775">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1604432182544" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1604557219775" />
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1603996567036">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -310,26 +354,34 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="412" y="128" width="639" height="524" key="StructurePopup/0.27.1366.741@0.27.1366.741" timestamp="1603645702684" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1601577434560">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604504054638">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1601577434560" />
+    <state width="498" height="446" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604504054638" />
     <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603988972359">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1603988972359" />
-    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1604266836991">
+    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604504051736">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1604266836991" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1604244763277">
+    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1604504051736" />
+    <state x="361" y="138" width="634" height="526" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1604502215086">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604244763277" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604246575334">
+    <state x="361" y="138" width="634" height="526" key="com.jetbrains.php.test.PhpNewTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1604502215086" />
+    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1604504498773">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1604246575334" />
+    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1604504498773" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1604514898290">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604514898290" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604503981806">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1604503981806" />
     <state x="456" y="81" width="444" height="639" key="svn.repositoryBrowser" timestamp="1603996654205">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

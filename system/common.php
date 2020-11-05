@@ -75,7 +75,7 @@
 	function message($type, $message, $mustExit = false)
     {
 		$data['message'] = $message;
-		View::render("/message/$type.php", $data);
+		View::render("/mvc/view/message/$type.php", $data);
 		if ($mustExit){
 			exit;
 		}

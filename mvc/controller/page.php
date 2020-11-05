@@ -3,7 +3,7 @@
 class PageController {
 
     public function home() {
-        View::render("/page/home.php");
+        View::render("/mvc/view/page/home.php");
     }
 }
 

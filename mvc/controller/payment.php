@@ -3,17 +3,17 @@ class PaymentController {
 
     public function pay()
     {
-        View::render('/payment/cart.php');
+        View::render('/mvc/view/payment/cart.php');
     }
 
     public function linearProduct()
     {
-        View::render('/payment/products-linear.php');
+        View::render('/mvc/view/payment/products-linear.php');
     }
 
     public function gridProduct()
     {
-        View::render('/payment/products-grid.php');
+        View::render('/mvc/view/payment/products-grid.php');
     }
 }
 

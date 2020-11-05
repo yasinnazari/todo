@@ -14,10 +14,10 @@ class ProductController {
 
         if ($viewType == 'grid') {
             session_set('viewType', 'grid');
-            View::renderPartial("/payment/products-grid.php", $data);
+            View::renderPartial("/mvc/view/payment/products-grid.php", $data);
         } else {
             session_set('viewType', 'linear');
-            View::renderPartial("/payment/products-linear.php", $data);
+            View::renderPartial("/mvc/view/payment/products-linear.php", $data);
         }
     }
 
@@ -33,7 +33,7 @@ class ProductController {
 
         $data['orders'] = $orders;
 
-        View::render("/payment/cart.php", $data);
+        View::render("/mvc/view/payment/cart.php", $data);
     }
 
     // ----------------------------------------------------------------------
@@ -48,7 +48,7 @@ class ProductController {
 
         $data['orders'] = $orders;
 
-        View::render("/payment/cart-preview.php", $data);
+        View::render("/mvc/view/payment/cart-preview.php", $data);
     }
 
     // ----------------------------------------------------------------------
