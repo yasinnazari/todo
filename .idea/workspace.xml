@@ -5,32 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/controller/author.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/author/define-product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/message/scs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locale/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/locale/fa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/model/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/model/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/page/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/payment/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/author.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/author/define-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/author/define-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/message/scs.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/message/scs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +241,17 @@
       <workItem from="1604556604757" duration="1693000" />
       <workItem from="1604558383237" duration="685000" />
       <workItem from="1604560832259" duration="1773000" />
-      <workItem from="1604562677052" duration="20000" />
+      <workItem from="1604562677052" duration="1299000" />
+      <workItem from="1604564739781" duration="1758000" />
+      <workItem from="1604566995461" duration="1201000" />
+      <workItem from="1604571882286" duration="1688000" />
+      <workItem from="1604573709447" duration="1253000" />
+      <workItem from="1604590149399" duration="1772000" />
+      <workItem from="1604592302570" duration="1776000" />
+      <workItem from="1604594150798" duration="1763000" />
+      <workItem from="1604597353706" duration="1702000" />
+      <workItem from="1604600425093" duration="1599000" />
+      <workItem from="1604606457281" duration="1286000" />
     </task>
     <servers />
   </component>
@@ -374,10 +363,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1604504498773" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1604514898290">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1604607383106">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604514898290" />
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604607383106" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604503981806">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

@@ -19,8 +19,11 @@ class AuthorController {
         $price = post('price');
         $discount = post('discount');
 
+        $file = basename($_FILES['image']['tmp_name']);
+        copy($file, baseUrl() . "image/product/hello.png");
+
         $productId = ProductModel::add_product($title, $description, $brief, $price, $discount);
-        message('scs', _product_defined);
+        message('scs', _product_defined, true);
     }
 
 }
