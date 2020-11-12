@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mvc/controller/temp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/author.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/model/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/model/note.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/author/define-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/author/define-product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/message/scs.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/message/scs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/page/ajaxCatalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/ajaxCatalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/page/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/page/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/page/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/common.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/theme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../notes-v3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,17 +60,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mvc/view/payment" />
-      <recent name="$PROJECT_DIR$/mvc/view/product" />
-      <recent name="$PROJECT_DIR$/image/product" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/theme" />
       <recent name="$PROJECT_DIR$/mvc/view/payment" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/font" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mvc/view/payment" />
+      <recent name="$PROJECT_DIR$/mvc/view/product" />
+      <recent name="$PROJECT_DIR$/image/product" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.home.php">
@@ -251,7 +258,24 @@
       <workItem from="1604594150798" duration="1763000" />
       <workItem from="1604597353706" duration="1702000" />
       <workItem from="1604600425093" duration="1599000" />
-      <workItem from="1604606457281" duration="1286000" />
+      <workItem from="1604606457281" duration="1742000" />
+      <workItem from="1604608359864" duration="1751000" />
+      <workItem from="1604676272643" duration="1756000" />
+      <workItem from="1604678116966" duration="2092000" />
+      <workItem from="1604681236415" duration="731000" />
+      <workItem from="1604683116909" duration="2823000" />
+      <workItem from="1604687552954" duration="1747000" />
+      <workItem from="1604690700506" duration="1901000" />
+      <workItem from="1604692663328" duration="1108000" />
+      <workItem from="1604694786332" duration="1314000" />
+      <workItem from="1604945366577" duration="2992000" />
+      <workItem from="1604948718204" duration="3143000" />
+      <workItem from="1604955461569" duration="2940000" />
+      <workItem from="1604958455272" duration="1772000" />
+      <workItem from="1604960287676" duration="1620000" />
+      <workItem from="1605030653374" duration="1849000" />
+      <workItem from="1605035428102" duration="599000" />
+      <workItem from="1605168801014" duration="673000" />
     </task>
     <servers />
   </component>
@@ -279,10 +303,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="127" width="1166" height="541" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1602264372986" />
-    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl" timestamp="1604251055195">
+    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl" timestamp="1604959857081">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1604251055195" />
+    <state x="466" y="155" width="447" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1604959857081" />
     <state width="1320" height="215" key="GridCell.Tab.0.bottom" timestamp="1602256338453">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -331,10 +355,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="215" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1602256338455" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604557219775">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604948742645">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1604557219775" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1604948742645" />
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1603996567036">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -359,14 +383,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="361" y="138" width="634" height="526" key="com.jetbrains.php.test.PhpNewTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1604502215086" />
-    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1604504498773">
+    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1605031567403">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1604504498773" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1604607383106">
+    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1605031567403" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1604688721465">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604607383106" />
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604688721465" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604503981806">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

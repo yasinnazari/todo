@@ -145,7 +145,7 @@
 
 	}
 
-    function pegination($url, $showCount, $activeClass, $currentPageIndex)
+    function pagination($url, $showCount, $activeClass, $currentPageIndex)
     {
 	    ob_start();
 	?>
@@ -157,8 +157,7 @@
             <? } ?>
 
             <?
-        $output = ob_get_clean();
-        return $output;
+        return ob_get_clean();
 	}
 
 	function initializeSettings()

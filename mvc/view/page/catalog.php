@@ -47,17 +47,17 @@
         <br>
         <br>
 
-        <?=  pegination('/dev/workspace/web/shop/note/catalog', 2, 'pegination-btn', $pageIndex);  ?>
+        <?=  pagination('/dev/workspace/web/shop/note/catalog', 2, 'pagination-btn', $pageIndex);  ?>
         <br>
         <br>
         <hr>
-        <br>
+        <br>sdfasdfsdfsdafdsfdsfds
 
-        <span class="pegination-btn" onclick="getPage(1)"><?=_next?></span>
+        <span class="pagination-btn" onclick="getPage(1)"><?=_next?></span>
         <span> ... </span>
         <? for ($i=$pageIndex-2; $i<=$pageIndex+2; $i++) { ?>
             <? if ($i <= 0 ) { continue; } ?>
-            <span class="pegination-btn" onclick="getPage(<?=$i?>)"><?=$i?></span>
+            <span class="pagination-btn" onclick="getPage(<?=$i?>)"><?=$i?></span>
         <? } ?>
 
         <br>

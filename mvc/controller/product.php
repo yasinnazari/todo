@@ -1,15 +1,19 @@
 <?
 
-class ProductController {
+class ProductController
+{
 
-    public function search()
+    public function search($pageIndex = 0)
     {
         $sortType = post('sortType');
         $keyword = post('keyword');
         $viewType = post('viewType');
 
+        $itemCount = 5;
+        $itemIndex = $pageIndex * $itemCount;
         $db = Db::getInstance();
-        $products = $db->query("SELECT * FROM pym_product WHERE title LIKE '%$keyword%' ORDER BY $sortType");
+        $products = $db->query("SELECT * FROM pym_product WHERE title LIKE '%$keyword%' ORDER BY $sortType LIMIT $itemIndex,5");
+
         $data['products'] = $products;
 
         if ($viewType == 'grid') {
@@ -99,7 +103,7 @@ class ProductController {
 
         if (!isGuest()) {
             $cart = ProductModel::fetch_openCart_by_userId($userId);
-            if ($cart != null){
+            if ($cart != null) {
                 ProductModel::update_openCartSession_by_cartId($cart['cart_id']);
                 return $cart;
             }
@@ -123,7 +127,7 @@ class ProductController {
         $userId = getUserId();
 
         $cart = $this->findcart();
-        if ($cart != null){
+        if ($cart != null) {
             return $cart;
         }
 
@@ -132,6 +136,4 @@ class ProductController {
         $cart = $this->findcart();
         return $cart;
     }
-
 }
-

@@ -21,6 +21,32 @@
 </div>
 <br><br>
 
+<?
+    $pageIndex = 0;
+    $pageCount = 5;
+?>
+
+<?= pagination('/dev/workspace/web/shop/home', 2, 'pagination-btn', $pageIndex); ?>
+
+<br><br><br>
+
 <div id="products">
 
 </div>
+
+<script>
+    function getPage(pageIndex){
+        var sortType = $("#sortType").val();
+        var keyword = $("#keyword").val();
+        var viewType = $("#viewType").val();
+
+        $.ajax('/dev/workspace/web/shop/product/search/' + pageIndex, {
+            type: 'post',
+            dataType: 'json',
+            success :function(data){
+                $("#products").html(data.html);
+            }
+        });
+    }
+
+</script>

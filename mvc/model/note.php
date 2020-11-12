@@ -21,15 +21,13 @@ class NoteModel {
     public static function catalog($userId)
     {
         $db = Db::getInstance();
-        $records = $db->query("SELECT * FROM note WHERE user_id=$userId");
-        return $records;
+        return $db->query("SELECT * FROM note WHERE user_id=$userId");
     }
 
     public static function catalogByPage($userId, $startIndex, $count)
     {
         $db = Db::getInstance();
-        $records = $db->query("SELECT * FROM note WHERE user_id=$userId LIMIT $startIndex, $count");
-        return $records;
+        return $db->query("SELECT * FROM note WHERE user_id=$userId LIMIT $startIndex, $count");
     }
 
     public static function countNotes($userId)

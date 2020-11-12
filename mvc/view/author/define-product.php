@@ -7,7 +7,7 @@
     <br>
     <textarea name="brief" placeholder="توضیحات کوتاه محصول" style="border: 1px solid #a1baa1" class="w35" rows="8"></textarea><br><br>
     <br><br>
-    <input type="number" id="prPrice" class="w17" onkeydown="validate(event)" name="price" placeholder="قیمت محصـول" style="border: 1px solid #a1baa1" min="0" max="100"><br>
+    <input type="number" id="prPrice" class="w17" onkeydown="validate(event)" name="price" placeholder="قیمت محصـول" style="border: 1px solid #a1baa1" min="0" max="1000"><br>
     <br>
     <input type="number" id="prPrice" class="w17" name="discount" onkeydown="validate(event)" placeholder="تخفیف محصـول" style="border: 1px solid #a1baa1" min="0" max="100"><br><br>
     <br>
