@@ -9,10 +9,8 @@ class ProductController
         $keyword = post('keyword');
         $viewType = post('viewType');
 
-        $itemCount = 5;
-        $itemIndex = $pageIndex * $itemCount;
         $db = Db::getInstance();
-        $products = $db->query("SELECT * FROM pym_product WHERE title LIKE '%$keyword%' ORDER BY $sortType LIMIT $itemIndex,5");
+        $products = $db->query("SELECT * FROM pym_product WHERE title LIKE '%$keyword%' ORDER BY $sortType");
 
         $data['products'] = $products;
 

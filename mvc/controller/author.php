@@ -25,10 +25,7 @@ class AuthorController {
 
         $productId = ProductModel::add_product($title, $description, $brief, $price, $discount);
 
-        // copy($file, "/tmp/" . $productId . $ext);
-
         $thumb = imagecreatetruecolor(50, 50);
-        list($width, $height) = getimagesize($file);
 
         imagepng($thumb, "/tmp/" . $productId . $ext);
 
