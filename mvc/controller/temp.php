@@ -3,9 +3,21 @@ class TempController {
 
     function generateSampleJson()
     {
-        $json = '{"age":12,"name":"Yasin"}';
-        $jsonDecoded = json_decode($json, true);
-        echo json_encode($jsonDecoded);
+        $json = [
+            "Compute config 1" => [
+                "CPU" => "intel 4790K",
+                "RAM" => "KinStone HyperX 16GB",
+            ],
+
+            "Compute Config 2" => [
+                "CPU" => "AMD 965",
+                "RAM" => "Patriot 32GB",
+            ],
+
+        ];
+
+        $jsonEncoded = json_encode($json);
+        echo $jsonEncoded;
     }
 
     //    function populateData(){

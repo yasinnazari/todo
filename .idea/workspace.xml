@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mvc/controller/webservice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controller/wstester.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/author.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/author.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/temp.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/temp.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,7 +273,13 @@
       <workItem from="1605382159631" duration="1052000" />
       <workItem from="1605384320702" duration="1408000" />
       <workItem from="1605388592496" duration="1157000" />
-      <workItem from="1605390488576" duration="734000" />
+      <workItem from="1605390488576" duration="1764000" />
+      <workItem from="1605392303219" duration="5101000" />
+      <workItem from="1605640430617" duration="1695000" />
+      <workItem from="1605642200178" duration="1004000" />
+      <workItem from="1605646118383" duration="1695000" />
+      <workItem from="1605647981550" duration="1738000" />
+      <workItem from="1605723633743" duration="1738000" />
     </task>
     <servers />
   </component>
@@ -353,10 +359,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="215" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1602256338455" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1604948742645">
+    <state x="381" y="117" width="593" height="568" key="NewPhpClassDialog" timestamp="1605641757204">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1604948742645" />
+    <state x="381" y="117" width="593" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1605641757204" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1605646893108">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1605646893108" />
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1603996567036">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -369,14 +379,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604504054638" />
-    <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603988972359">
+    <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605640542313">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1603988972359" />
-    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604504051736">
+    <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1605640542313" />
+    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605724963299">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1604504051736" />
+    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1605724963299" />
     <state x="361" y="138" width="634" height="526" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1604502215086">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -385,14 +395,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1605031567403" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1604688721465">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1605641914801">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1604688721465" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604503981806">
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1605641914801" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605642311250">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1604503981806" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1605642311250" />
     <state x="456" y="81" width="444" height="639" key="svn.repositoryBrowser" timestamp="1603996654205">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
