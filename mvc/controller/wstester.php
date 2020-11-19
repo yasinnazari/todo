@@ -1,22 +1,16 @@
 <?php
 
-class WstesterController {
+class WsTesterController {
     public function test()
     {
-        br();
-        echo "Hello World !";
-        br();br();
-        br();br();
-        br();br();
+        $data = curl_request("localhost/dev/workspace/web/shop/webservice/list_of_products");
+        $products = json_decode($data, true);
 
-        $ch = curl_init();
-
-        curl_setopt($ch, CURLOPT_URL, "http://www.example.com");
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-        $data = curl_exec($ch);
-        curl_close($ch);
-
-        echo $data;
+        foreach ($products as $product){
+            echo $product['product_id'];
+            echo "<br>";
+            echo $product['title'];
+            echo "<hr>";
+        }
     }
 }

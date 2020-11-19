@@ -4,6 +4,7 @@
 	global $config;
 	require_once('/var/www/html/dev/workspace/web/shop/config.php');
 	require_once('/var/www/html/dev/workspace/web/shop/system/core.php');
+	require_once('/var/www/html/dev/workspace/web/shop/system/net.php');
 	require_once('/var/www/html/dev/workspace/web/shop/system/common.php');
 	require_once('/var/www/html/dev/workspace/web/shop/system/access.php');
 	require_once('/var/www/html/dev/workspace/web/shop/system/db.php');
