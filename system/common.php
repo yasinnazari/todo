@@ -5,6 +5,11 @@
 		if ($return) { return "<br>\n"; } else { echo "<br>\n"; }
 	}
 
+	function table($return = false)
+    {
+		if ($return) { return "<table>\n"; } else { echo "<table>\n"; }
+	}
+
 	function hr($return = false)
     {
         if ($return){ return "<hr>\n"; } else { echo "<hr>\n"; }

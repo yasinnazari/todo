@@ -172,3 +172,15 @@ a, a:visited, a:hover {
     position: fixed;
     right: 380px;
 }
+
+table {
+ border: 1px solid #61003f;
+}
+
+tr {
+ border: 1px solid #61003f;
+}
+
+td {
+ border: 1px solid #61003f;
+}
