@@ -1,13 +1,13 @@
 <?
 
 define('_email_not_registered', "! Login failed Check you'r Email and Account");
-define('_login_welcome', "Congratulation, You Are Welcome To User Site <a href=\"/dev/workspace/web/shop/user/login\">Login to Site</a>");
+define('_login_welcome', "Congratulation, You Are Welcome To User Site <a href=\"/dev/workspace/web/notes-v3/user/login\">Login to Site</a>");
 define('_invalid_password', "! Password Didn't Matched");
 define('_already_registered', "! You're Already Registered");
-    define('_already_logged_in', "You're Already Logged In, <a href=\"/dev/workspace/web/shop/note/catalog/1\">Visit HomePage</a> Or <a href=\"/dev/workspace/web/shop/user/logout\">Logout</a><br><br>: Email ");
+    define('_already_logged_in', "You're Already Logged In, <a href=\"/dev/workspace/web/notes-v3/note/catalog/1\">Visit HomePage</a> Or <a href=\"/dev/workspace/web/notes-v3/user/logout\">Logout</a><br><br>: Email ");
 define('_weak_password', "! Passwords Aren't Strong enought");
 define('_password_not_match', "! Passwords Not Matched");
-define('_successfully_registered', "You Are Successfully Registered Please <a href=\"/dev/workspace/web/shop/user/login\">Login</a>");
+define('_successfully_registered', "You Are Successfully Registered Please <a href=\"/dev/workspace/web/notes-v3/user/login\">Login</a>");
 
 define('_btn_register', "Register");
 define('_btn_login', "Login");

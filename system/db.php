@@ -1,82 +1,83 @@
 <?php
 
 class Db {
-    private $connection;
-    private static $db;
+	private $connection;
+	private static $db;
 
-    public static function getInstance($option = null){
-        if (self::$db == null){
-            self::$db = new Db($option);
-        }
+	public static function getInstance($option = null){
+		if (self::$db == null){
+			self::$db = new Db($option);
+		}
 
-        return self::$db;
-    }
+		return self::$db;
+	}
 
-    public function __construct($option = null){
+	public function __construct($option = null){
 
-        if ($option != null){
-            $host = $option['host'];
-            $user = $option['user'];
-            $pass = $option['pass'];
-            $name = $option['name'];
-        } else {
-            global $config;
-            $host = $config['db']['host'];
-            $user = $config['db']['user'];
-            $pass = $config['db']['pass'];
-            $name = $config['db']['name'];
-        }
+		if ($option != null){
+			$host = $option['host'];
+			$user = $option['user'];
+			$pass = $option['pass'];
+			$name = $option['name'];
+		} else {
+			global $config;
+			$host = $config['db']['host'];
+			$user = $config['db']['user'];
+			$pass = $config['db']['pass'];
+			$name = $config['db']['name'];
+		}
 
-        $this->connection = new mysqli($host, $user, $pass, $name);
-        if ($this->connection->connect_error) {
-            echo "Connection failed: " . $this->connection->connect_error;
-            exit;
-        }
+		$this->connection = new mysqli($host, $user, $pass, $name);
+		if ($this->connection->connect_error) {
+    		echo "Connection failed: " . $this->connection->connect_error;
+    		exit;
+		}
 
-        $this->connection->query("SET NAMES 'utf8'");
-    }
+	$this->connection->query("SET NAMES 'utf8'");
 
-    public function first($sql){
-        $records = $this->query($sql);
-        if ($records == null) {
-            return null;
-        }
+	}
 
-        return $records[0];
-    }
+	public function first($sql){
+		$records = $this->query($sql);
+		if ($records == null) {
+			return null;
+		}
 
-    public function modify($sql){
-        return $this->connection->query($sql);
-    }
+		return $records[0];
+	}
 
-    public function insert($sql){
-        return $this->connection->query($sql);
-    }
+	public function modify($sql){
+		$rowsAffected = $this->connection->query($sql);
 
-    public function query($sql){
-        $result = $this->connection->query($sql);
-        $records = array();
+    	return $rowsAffected;
+	}
 
-        if ($result->num_rows == 0) {
-            return null;
-        }
+	public function insert($sql){
+		$id = $this->connection->query($sql);
+    	return $id;
+	}
 
-        while($row = $result->fetch_assoc()) {
-            $records[] = $row;
-        }
+	public function query($sql){
+		$result = $this->connection->query($sql);
+		$records = array();
 
-        return $records;
-    }
+		if ($result->num_rows == 0) {
+			return null;
+    	}
 
-    public function connection(){
-        return $this->connection;
-    }
+    while($row = $result->fetch_assoc()) {
+   		$records[] = $row;
+   	}
 
-    public function close(){
-        $this->connection->close();
-    }
+    	return $records;
+	}
 
+	public function connection(){
+		return $this->connection;
+	}
+
+	public function close(){
+		$this->connection->close();
+	}
 
 }
-
-?>

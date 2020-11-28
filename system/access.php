@@ -10,6 +10,7 @@
             return _guest;
         }
 
+        $access = $_SESSION["access"];
         $accessName = "";
 
         if (isSuperAdmin()){
@@ -37,7 +38,7 @@
     {
         if (isGuest()){ return false; }
 
-        $access = session_get('access');
+        $access = $_SESSION["access"];
 
         if (has_access($access, 'admin') || has_access ($access,'superadmin')){
             return true;
@@ -49,7 +50,7 @@
     function isSuperAdmin()
     {
         if (isGuest()){ return false; }
-        $access = session_get('access');
+        $access = $_SESSION["access"];
 
         if (has_access($access,'superadmin')){
             return true;
@@ -58,11 +59,10 @@
         return false;
     }
 
-
     function isAuthor()
     {
         if (isGuest()){ return false; }
-        $access = session_get('access');
+        $access = $_SESSION["access"];
 
         if (has_access($access, 'vipauthor') || has_access ($access,'author')){
             return true;
@@ -74,7 +74,7 @@
     function isVipAuthor()
     {
         if (isGuest()){ return false; }
-        $access = session_get('access');
+        $access = $_SESSION["access"];
 
         if (has_access($access, 'vipauthor')){
             return true;
@@ -86,8 +86,7 @@
     function isVip()
     {
         if (isGuest()){ return false; }
-
-        $access = session_get('access');
+        $access = $_SESSION["access"];
 
         if (has_access($access, 'vip')){
             return true;
@@ -98,48 +97,23 @@
 
     function isUser()
     {
-        return session_isset('access') ? true : false;
+        return isset($_SESSION["access"]) ? true : false;
     }
 
     function isGuest()
     {
-        $userId = getUserId();
-        return $userId == 0;
+        return !isset($_SESSION["access"]) ? true : false;
     }
 
     function grantSuperAdmin()
     {
         if (!isSuperAdmin()){
-            echo "Forbidden";
+            ?> <h1><? echo "Forbidden";?> </h1> <?
             exit;
         }
     }
 
     function grantAdmin()
-    {
-        if (!isAdmin()){
-            echo "Forbidden";
-            exit;
-        }
-    }
-
-    function grantAuthor()
-    {
-        if (!isAuthor()){
-            echo "Forbidden";
-            exit;
-        }
-    }
-
-    function grantVipAuthor()
-    {
-        if (!isVipAuthor()){
-            echo "Forbidden";
-            exit;
-        }
-    }
-
-    function grantUser()
     {
         if (!isAdmin()){
             echo "Forbidden";
