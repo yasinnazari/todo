@@ -5,34 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/base2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/model/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/message/fail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/message/success.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locale/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locale/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/locale/fa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/note.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/payment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/success-access.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/zarinpal.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/model/note.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/model/user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/admin/promoteUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/message/fail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/message/success.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/note/submit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/page/ajaxCatalog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/page/catalog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/page/home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/test.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/user/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/default.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -346,6 +330,13 @@
       <workItem from="1606588659854" duration="1135000" />
       <workItem from="1606655523874" duration="1781000" />
       <workItem from="1606657397205" duration="1259000" />
+      <workItem from="1606660473093" duration="1341000" />
+      <workItem from="1606663791487" duration="97000" />
+      <workItem from="1606664289321" duration="2769000" />
+      <workItem from="1606675611532" duration="379000" />
+      <workItem from="1606678944564" duration="960000" />
+      <workItem from="1606681596188" duration="1469000" />
+      <workItem from="1606683851940" duration="773000" />
     </task>
     <servers />
   </component>
@@ -429,10 +420,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="381" y="117" width="593" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1605641757204" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1606655553443">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1606664717059">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606655553443" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606664717059" />
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1606546378345">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -453,10 +444,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="206" y="27" width="944" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1605640542313" />
-    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606546814708">
+    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606661048208">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1606546814708" />
+    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1606661048208" />
     <state x="361" y="138" width="634" height="526" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1604502215086">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
