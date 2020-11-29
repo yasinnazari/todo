@@ -62,7 +62,7 @@
 
 	function message($type, $message, $mustExit = false) {
 		$data['message'] = $message;
-		View::render("/var/www/html/dev/workspace/web/notes-v3/mvc/view/message/$type.php", $data);
+		View::render("/var/www/html/dev/workspace/web/todo/mvc/view/message/$type.php", $data);
 		if ($mustExit){
 			exit;
 		}

@@ -5,70 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/download.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/+.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/default.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/notes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/shopping-done.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/product/user2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/shop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/shopping-cart.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/home.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/locale/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locale/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/locale/fa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/author.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/note.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/page.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/payment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/temp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/webservice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/wstester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/model/note.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/model/product.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/model/user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/author/define-product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/admin/promoteUser.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/message/fail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/message/scs.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/message/success.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/note/submit.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/page/ajaxCatalog.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/page/catalog.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/page/home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/cart-preview.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/payment/cart.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/products-grid.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/payment/products-linear.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/test.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/user/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/user/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/access.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/common.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/net.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theme/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/header.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,6 +342,10 @@
       <workItem from="1606546164162" duration="1761000" />
       <workItem from="1606549109926" duration="1643000" />
       <workItem from="1606550934919" duration="1752000" />
+      <workItem from="1606552784289" duration="1341000" />
+      <workItem from="1606588659854" duration="1135000" />
+      <workItem from="1606655523874" duration="1781000" />
+      <workItem from="1606657397205" duration="1259000" />
     </task>
     <servers />
   </component>
@@ -460,10 +429,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="381" y="117" width="593" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1605641757204" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1606549848440">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1606655553443">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606549848440" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606655553443" />
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1606546378345">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -492,14 +461,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="361" y="138" width="634" height="526" key="com.jetbrains.php.test.PhpNewTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1604502215086" />
-    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1606547236866">
+    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1606655033813">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1606547236866" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1606546726221">
+    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1606655033813" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1606655218192">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1606546726221" />
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1606655218192" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605772968097">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

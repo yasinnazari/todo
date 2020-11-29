@@ -2,11 +2,11 @@
 
     define('test', true);
 
-    require_once('/var/www/html/dev/workspace/web/notes-v3/system/loader.php');
+    require_once('/var/www/html/dev/workspace/web/todo/system/loader.php');
 
 
     $uri = getRequestUri();
-    $uri = str_replace('/notes-v3/', '/', $uri);
+    $uri = str_replace('/todo/', '/', $uri);
 
     global $config;
     $route = $config['route'];

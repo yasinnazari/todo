@@ -1,13 +1,13 @@
 <?
 
 define('_email_not_registered', "ورود ناموفق است , لطفا صحت ایمیل خود را بررسی نمایید !");
-define('_login_welcome', "ورود شما را به این سایت , تبریک میگوییم <a href=\"/dev/workspace/web/notes-v3/user/login\">ورود به سایت</a>");
-define('_invalid_password', "رمزعبور وارد شده اشتباه میباشد آیا <a href=\"/dev/workspace/web/notes-v3/user/login\">بازنشانی رمزعبور</a> !");
+define('_login_welcome', "ورود شما را به این سایت , تبریک میگوییم <a href=\"/dev/workspace/web/todo/user/login\">ورود به سایت</a>");
+define('_invalid_password', "رمزعبور وارد شده اشتباه میباشد آیا <a href=\"/dev/workspace/web/todo/user/login\">بازنشانی رمزعبور</a> !");
 define('_already_registered', "شما پیش تر ثبت نام کرده اید , کافیست وارد سایت شوید !");
-define('_already_logged_in', "شما هم اکنون وارد سایت شده اید آیا <a href=\"/dev/workspace/web/notes-v3/page/home\">بازدید از صفحه اصلی </a> یا <a href=\"/dev/workspace/web/notes-v3/user/logout\">خروج از حساب</a><br><br>ایمیل شما:  ");
+define('_already_logged_in', "شما هم اکنون وارد سایت شده اید آیا <a href=\"/dev/workspace/web/todo/page/home\">بازدید از صفحه اصلی </a> یا <a href=\"/dev/workspace/web/todo/user/logout\">خروج از حساب</a><br><br>ایمیل شما:  ");
 define('_weak_password', "رمزعبور های وارد شده به اندازه کافی قوی نمیباشد !");
 define('_password_not_match', " رمزعبور های وارد شده با هم مطابقت ندارند !");
-define('_successfully_registered', "شما با موفقیت ثبت نام شدید , <a href=\"/dev/workspace/web/notes-v3/user/login\">ورود به سایت</a>");
+define('_successfully_registered', "شما با موفقیت ثبت نام شدید , <a href=\"/dev/workspace/web/todo/user/login\">ورود به سایت</a>");
 
 define('_btn_register', "ثبت نام");
 define('_btn_login', "ورود");
