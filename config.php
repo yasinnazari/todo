@@ -21,5 +21,6 @@ $config['route'] = array(
     '/dev/workspace/web/ثبت نام' => "dev/workspace/web/todo/user/register",
     '/dev/workspace/web/home' => "dev/workspace/web/todo/page/home",
     '/dev/workspace/web/خانه' => "dev/workspace/web/todo/page/home",
+    '/dev/workspace/web/logout' => "dev/workspace/web/todo/user/logout",
 );
 

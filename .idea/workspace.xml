@@ -5,19 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/base2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/model/user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/message/fail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/message/success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controller/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controller/note.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controller/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controller/payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controller/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/model/note.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/admin/promoteUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/note/submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/page/catalog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/page/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/view/user/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/success-access.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/zarinpal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/empty-profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/locale/fa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/model/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/model/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/message/fail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/message/fail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/view/message/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/message/success.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc/view/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/default.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +57,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mvc/view" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -62,17 +71,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$/theme" />
-      <recent name="$PROJECT_DIR$/mvc/view/payment" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mvc/view/payment" />
       <recent name="$PROJECT_DIR$/mvc/view/product" />
       <recent name="$PROJECT_DIR$/image/product" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mvc/view" />
+      <recent name="$PROJECT_DIR$/mvc/model" />
+      <recent name="$PROJECT_DIR$/mvc/controller" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.home.php">
@@ -337,6 +346,20 @@
       <workItem from="1606678944564" duration="960000" />
       <workItem from="1606681596188" duration="1469000" />
       <workItem from="1606683851940" duration="773000" />
+      <workItem from="1606686698163" duration="1770000" />
+      <workItem from="1606688532303" duration="465000" />
+      <workItem from="1606719920155" duration="1760000" />
+      <workItem from="1606722653071" duration="1523000" />
+      <workItem from="1606766441127" duration="1491000" />
+      <workItem from="1606768434056" duration="1769000" />
+      <workItem from="1606770315530" duration="1790000" />
+      <workItem from="1606892957962" duration="1746000" />
+      <workItem from="1606894861739" duration="1781000" />
+      <workItem from="1606896698725" duration="1273000" />
+      <workItem from="1606915211754" duration="1749000" />
+      <workItem from="1606917039294" duration="1260000" />
+      <workItem from="1606918915600" duration="1114000" />
+      <workItem from="1606921598106" duration="1770000" />
     </task>
     <servers />
   </component>
@@ -420,10 +443,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="381" y="117" width="593" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1605641757204" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1606664717059">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1606686872479">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606664717059" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606686872479" />
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1606546378345">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -452,18 +475,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="361" y="138" width="634" height="526" key="com.jetbrains.php.test.PhpNewTestDialog/0.27.1366.741@0.27.1366.741" timestamp="1604502215086" />
-    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1606655033813">
+    <state x="45" y="27" width="1024" height="695" key="dock-window-1" timestamp="1606724119407">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1606655033813" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1606655218192">
+    <state x="45" y="27" width="1024" height="695" key="dock-window-1/0.27.1366.741@0.27.1366.741" timestamp="1606724119407" />
+    <state x="147" y="69" width="1091" height="650" key="find.popup" timestamp="1606919239836">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1606655218192" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605772968097">
+    <state x="147" y="69" width="1091" height="650" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1606919239836" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1606915347773">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1605772968097" />
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1606915347773" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606720686947">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1606720686947" />
     <state x="456" y="81" width="444" height="639" key="svn.repositoryBrowser" timestamp="1603996654205">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

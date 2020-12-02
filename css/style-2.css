@@ -9,24 +9,45 @@ body {
 }
 
 input, textarea {
-    border: 1px solid rgb(238, 238, 238);
+    border: 1px solid rgb(255, 185, 173);
     font-size: 16px;
     padding: 5px 6px;
     width: 280px;
-    font-family: "nassim";
-    font-size: 12pt;
-    border-radius: 5px;
+    border-radius: 7px;
     transition: all 0.9s;
+    font-family: "nassim";
 }
 
 input:hover, textarea:hover {
-    border: 1px solid #bfa4a4;
+    border: 1px solid #b1bfa4;
     border-radius: 5px;
 }
 
 input:focus, textarea:focus {
-    border: 1px solid #f7c6c2 ;
-    background-color: #fffdfd ;
+    border: 1px solid #888987;
+    background-color: #d3e8dc;
+}
+
+.textarea-register {
+    border: 1px solid rgb(125, 115, 115);
+    font-size: 16px;
+    padding: 5px 6px;
+    width: 310px;
+    border-radius: 5px;
+    transition: all 0.9s;
+    resize: none;
+    font-family: "nassim";
+}
+
+.textarea-register:hover {
+    border: 1px solid rgb(168, 153, 153);
+    font-size: 16px;
+    padding: 5px 6px;
+    width: 310px;
+    border-radius: 5px;
+    transition: all 0.9s;
+    resize: none;
+    font-family: "nassim";
 }
 
 a, a:visited, a:hover {
@@ -70,10 +91,10 @@ a, a:visited, a:hover {
     top: 12px;
 }
 
-.fail {
+.fld {
     font-size: 18.5px;
-    color: #463269;
-    font-family: verdana;
+    color: #463269 ;
+    font-family: fantasy;
 }
 
 .con {

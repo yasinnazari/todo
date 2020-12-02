@@ -1,7 +1,7 @@
 <?
 
 define('_email_not_registered', "ورود ناموفق است , لطفا صحت ایمیل خود را بررسی نمایید !");
-define('_login_welcome', "ورود شما را به این سایت , تبریک میگوییم <a href=\"/dev/workspace/web/todo/user/login\">ورود به سایت</a>");
+define('_login_welcome', "ورود شما را به این سایت , تبریک میگوییم <a href=\"/dev/workspace/web/todo/page/home\">ورود به سایت</a>");
 define('_invalid_password', "رمزعبور وارد شده اشتباه میباشد آیا <a href=\"/dev/workspace/web/todo/user/login\">بازنشانی رمزعبور</a> !");
 define('_already_registered', "شما پیش تر ثبت نام کرده اید , کافیست وارد سایت شوید !");
 define('_already_logged_in', "شما هم اکنون وارد سایت شده اید آیا <a href=\"/dev/workspace/web/todo/page/home\">بازدید از صفحه اصلی </a> یا <a href=\"/dev/workspace/web/todo/user/logout\">خروج از حساب</a><br><br>ایمیل شما:  ");
