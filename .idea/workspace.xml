@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mvc/controller/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/controller/note.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/controller/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/controller/payment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/controller/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/model/note.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/admin/promoteUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/note/submit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/page/catalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/page/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/view/user/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/empty-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/locale/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/locale/fa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/controller/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/model/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/model/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/message/fail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/message/fail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/message/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/message/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/view/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/view/user/login.php" afterDir="false" />
-    </list>
+    <list default="true" id="05f9c2ab-9a0c-41a3-a8df-cf9df1a0814c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -360,6 +337,7 @@
       <workItem from="1606917039294" duration="1260000" />
       <workItem from="1606918915600" duration="1114000" />
       <workItem from="1606921598106" duration="1770000" />
+      <workItem from="1606923442178" duration="297000" />
     </task>
     <servers />
   </component>
