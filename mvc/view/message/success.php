@@ -1,7 +1,7 @@
 <div class="tac">
     <br>
     <br>
-    <img src="<?=baseUrl()?>image/success.png">
+    <img style="width: 180px; height: 180px;" src="<?=baseUrl()?>image/scsicon.jpg">
     <br>
     <br>
     <br>

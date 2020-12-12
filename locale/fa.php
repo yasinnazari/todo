@@ -1,13 +1,13 @@
 <?
 
 define('_email_not_registered', "ورود ناموفق است , لطفا صحت ایمیل خود را بررسی نمایید !");
-define('_login_welcome', "ورود شما را به این سایت , تبریک میگوییم <a href=\"/dev/workspace/web/todo/page/home\">ورود به سایت</a>");
-define('_invalid_password', "رمزعبور وارد شده اشتباه میباشد آیا <a href=\"/dev/workspace/web/todo/user/login\">بازنشانی رمزعبور</a> !");
+define('_login_welcome', "ورود شما را به این سایت , تبریک میگوییم <a style='color: coral' href=\"/dev/workspace/web/todo/page/home\">ورود به سایت</a>");
+define('_invalid_password', "رمزعبور وارد شده اشتباه میباشد آیا <a style='color: coral'  href=\"/dev/workspace/web/todo/user/login\">بازنشانی رمزعبور</a> !");
 define('_already_registered', "شما پیش تر ثبت نام کرده اید , کافیست وارد سایت شوید !");
-define('_already_logged_in', "شما هم اکنون وارد سایت شده اید آیا <a href=\"/dev/workspace/web/todo/page/home\">بازدید از صفحه اصلی </a> یا <a href=\"/dev/workspace/web/todo/user/logout\">خروج از حساب</a><br><br>ایمیل شما:  ");
+define('_already_logged_in',  "شما هم اکنون وارد سایت شده اید آیا <a  style='color: coral' href=\"/dev/workspace/web/todo/page/home\">بازدید از صفحه اصلی </a> یا <a style='color: coral' href=\"/dev/workspace/web/todo/user/logout\">خروج از حساب</a><br><br>ایمیل شما : ");
 define('_weak_password', "رمزعبور های وارد شده به اندازه کافی قوی نمیباشد !");
 define('_password_not_match', " رمزعبور های وارد شده با هم مطابقت ندارند !");
-define('_successfully_registered', "شما با موفقیت ثبت نام شدید , <a href=\"/dev/workspace/web/todo/user/login\">ورود به سایت</a>");
+define('_successfully_registered', "شما با موفقیت ثبت نام شدید , <a style='color: coral' href=\"/dev/workspace/web/todo/user/login\">ورود به سایت</a>");
 
 define('_btn_register', "ثبت نام");
 define('_btn_login', "ورود");
@@ -16,14 +16,13 @@ define('_btn_signup', "ساخت حساب جدید");
 define('_btn_insert', "درج");
 define('_btn_note', "درج يادآور");
 
-
 define('_ph_email', "ایمیل");
 define('_ph_password', "رمزعبور");
 define('_ph_confirm_password', "تکرار رمزعبور");
 define('_ph_firstname', "نام");
 define('_ph_lastname', "نام خانوادگی");
 
-define('_header_welcome', "خوش آمدید");
+define('_header_welcome', "خوش آمدی");
 define('_header_guest', "کاربر میهمان");
 define('_guest', "میهمان");
 define('_header_guest_message', "کاربر مهمان عزیز , برای استفاده کامل از سیستم نیازمند به ثبت نام در سایت میباشید !");

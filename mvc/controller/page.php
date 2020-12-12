@@ -15,5 +15,18 @@ class PageController {
         $data['isGuest'] = $isGuest;
         View::render("/var/www/html/dev/workspace/web/todo/mvc/view/page/home.php", $data);
     }
+
+
+    public function link() {
+        View::render("/var/www/html/dev/workspace/web/todo/mvc/view/page/link.php");
+    }
+
+    public function userDescription() {
+        View::render("/var/www/html/dev/workspace/web/todo/mvc/view/page/user-description.php");
+    }
+
+    public function todoTable() {
+        View::render("/var/www/html/dev/workspace/web/todo/mvc/view/page/todo.php");
+    }
 }
 

@@ -1,7 +1,7 @@
 <div class="tac">
     <br>
     <br>
-    <img src="<?=baseUrl()?>image/fail.png">
+    <img src="<?=baseUrl()?>image/flicon.jpg" style="width: 210px; height: 210px">
     <br>
     <br>
     <br>

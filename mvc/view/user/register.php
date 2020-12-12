@@ -11,22 +11,10 @@
         <br>
         <input type="text" placeholder="نام" name="firstname"><br>
         <input type="text" placeholder="نام خانوادگی" name="lastname"><br>
-        <br><br>
-        <br>
+        <Br><br>
         <button type="submit" class="btn-blue">ثبت نام</button>
-    </form><br>
-    <br>
-    <br>
-    <br>
-    <a href="/dev/workspace/web/todo/login" class="btn">صفحه ورود</a>
-    <Br>
-    <br>
+    </form>
+    <br><br>
+    <a href="/dev/workspace/web/todo/login" class="pagination-btn">صفحه ورود</a>
 
 </div>
-
-<!--<div class="productPanel">-->
-<!--    <Br><br>-->
-<!--    <textarea class="textarea-register" placeholder="Please Not Change Link , Thank You">https://www.arzypto.com/my/auth/register?referrer=JiAoE34V</textarea><Br><br>-->
-<!--    <Br>-->
-<!--    <textarea class="textarea-register" placeholder="Please Not Change Code , Thank You">JiAoE34V</textarea>-->
-<!--</div>-->

@@ -1,5 +1,6 @@
 <?php
-class AdminController {
+
+    class AdminController {
 
     public function __construct()
     {

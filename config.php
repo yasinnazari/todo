@@ -22,5 +22,8 @@ $config['route'] = array(
     '/dev/workspace/web/home' => "dev/workspace/web/todo/page/home",
     '/dev/workspace/web/خانه' => "dev/workspace/web/todo/page/home",
     '/dev/workspace/web/logout' => "dev/workspace/web/todo/user/logout",
+    '/dev/workspace/web/خروج' => "dev/workspace/web/todo/user/logout",
+    '/dev/workspace/web/link' => "dev/workspace/web/todo/page/link",
+    '/dev/workspace/web/لینک' => "dev/workspace/web/todo/page/link",
 );
 

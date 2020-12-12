@@ -35,6 +35,7 @@ class UserController{
                 $_SESSION['email'] = $record['email'];
                 $_SESSION['user_id'] = $record['user_id'];
                 $_SESSION['firstname'] = $record['first_name'];
+                $_SESSION['lastname'] = $record['last_name'];
                 $_SESSION['access'] = $record['access'];
                 message('success', _login_welcome, true);
             } else {

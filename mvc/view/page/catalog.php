@@ -1,18 +1,21 @@
-<div id="header-top-right">
-    <? $isGuest = !isset($_SESSION['email']); ?>
-    <? if ($isGuest) { ?>
-        <img class="profile-image" src="<?=baseUrl()?>image/empty-profile-64.png">
-        <span style="margin-right: 10px;"><?=_header_guest?> <?=_header_welcome?></span>
-        <a href="/dev/workspace/web/todo/user/login" style="margin-right: 15px;" class="btn"><?=_btn_login?></a>
-    <? } else { ?>
-            <img class="profile-image" src="<?=baseUrl()?>image/empty-profile-64.png">
-            <span style="margin-right: 10px;"><?=$_SESSION['email']?> <?=_header_welcome?></span>
-            <a href="/dev/workspace/web/todo/user/login" style="margin-right: 15px;" class="btn"><?=_btn_exit?></a>
-    <? } ?>
+<br><img class="profile-image" style="margin-bottom: 0;" src="<?=baseUrl()?>image/empty-profile-64.png">
+<span class="gstuser" style="margin-right: 10px; margin-top: 0px;"><?=$_SESSION['firstname']?> <?=_header_welcome?></span>
+<br><br><hr>
+
+<div class="tac">
+    <span class="gstuser"></span>
+</div>
+
+<div class="svg-wrapper" style="margin-right: 1030px; position: absolute; top: 0;"><br>
+    <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+        <rect id="shape" height="40" width="150"/>
+        <div id="text">
+            <a href="/dev/workspace/web/todo/home"><span class="spot">بازگشت به صفحه قبل</span></a>
+        </div>
+    </svg>
 </div>
 
 <div id="notes">
-<br><br>
     <? if ($isGuest) { ?>
         <div class="tac lf important-color">
             <span><?=_header_guest_message?></span>
@@ -50,8 +53,6 @@
         <?= pageination('/dev/workspace/web/todo/note/catalog', 2, 'pageination-btn', $pageIndex); ?>
         <br>
         <br>
-        <hr>
-        <br>
 
         <span class="pageination-btn" onclick="getPage(1)"><?=_next?></span>
         <span> ... </span>
@@ -63,7 +64,7 @@
         <br>
         <br><br>
         <div class="tal">
-            <a class="btn-blue tal" href="/dev/workspace/web/todo/page/home"><?=_all_notes?></a>
+            <a class="btn-blue tal" href="/dev/workspace/web/todo/page/todoTable"><?=_all_notes?></a>
             &nbsp&nbsp<span class="btn-2">➖</span>&nbsp&nbsp
             <a href="/dev/workspace/web/todo/note/submit" class="btn-blue"><?=_btn_note?></a>&nbsp
         </div>
@@ -73,7 +74,7 @@
 
 <script>
     function getPage(pageIndex){
-        $.ajax('/dev/workspace/web/todo/note/ajaxCatalog/' + pageIndex, {
+        $.ajax('/dev/workspace/web/todo/note/catalog/' + pageIndex, {
             type: 'post',
             dataType: 'json',
             success :function(data){
